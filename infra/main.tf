@@ -13,7 +13,7 @@ terraform {
 
 terraform {
   backend "s3" {
-    bucket = "state-terraform-tech-v2"
+    bucket = "tech-challenge-fase-4-vpc"
     key = "tech-challenge-fase-4-cluster-eks/terraform.tfstate"
     region = "us-east-1"
     encrypt = true

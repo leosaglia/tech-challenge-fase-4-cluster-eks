@@ -7,6 +7,9 @@ Como recurso adicional, é realizada também a instalação do metrics-server, u
 
 **Tecnologia:** Terraform
 
+## Pré-requisitos
+É necessário que a VPC tenha sido criada previamente a partir do repositório [tech-challenge-fase-4-vpc](https://github.com/leosaglia/tech-challenge-fase-4-vpc/actions/runs)
+
 ## Workflow
 Todo o deploy CI/CD é automatizado utilizado o github actions.
 
