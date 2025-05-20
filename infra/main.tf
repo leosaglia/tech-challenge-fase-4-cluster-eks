@@ -22,5 +22,4 @@ terraform {
 
 module "complementos-cluster" {
   source = "./Complementos-Cluster"
-  depends_on = [ module.cluster ]
 }
