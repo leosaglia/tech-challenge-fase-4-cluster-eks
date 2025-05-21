@@ -7,6 +7,10 @@ Como recurso adicional, é realizada também a instalação do metrics-server, u
 
 **Tecnologia:** Terraform
 
+## Pré-requisitos
+- É necessário que a VPC tenha sido criada previamente a partir do repositório [tech-challenge-fase-4-vpc](https://github.com/leosaglia/tech-challenge-fase-4-vpc/actions/runs)
+- É necessário que o repositório que realiza a criação das bases RDS tenha sido criado previamente a partir do repositório [tech-challenge-fase-4-database](https://github.com/leosaglia/tech-challenge-fase-4-database/actions/runs), pois ele também irá criar o security group e precisa dele para fazer a liberação do consumo do banco de dados.
+
 ## Workflow
 Todo o deploy CI/CD é automatizado utilizado o github actions.
 

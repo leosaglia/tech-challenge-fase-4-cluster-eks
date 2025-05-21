@@ -1,11 +1,11 @@
 data "aws_eks_cluster" "eks" {
   name = var.eks_cluster_name
-  depends_on = [ module.cluster ]
+  depends_on = [aws_eks_cluster.eks]
 }
 
 data "aws_eks_cluster_auth" "eks" {
   name = var.eks_cluster_name
-  depends_on = [ module.cluster ]
+  depends_on = [aws_eks_cluster.eks]
 }
 
 provider "helm" {
